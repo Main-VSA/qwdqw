@@ -1,0 +1,59 @@
+/**
+ * @name Mibombo
+ * @author JeffryEpsteins
+ * @version 1.0.0
+ * @description Tema personalizado para Vencord
+ */
+
+@import url("https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css");
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fira+Code:wght@300..700&family=Oswald:wght@200..700&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+
+
+body {
+    font-family: var(--font) !important;
+}
+:root {
+    /* Fondo */
+    --background: url("https://i.imgur.com/zjuGBSF.jpeg");
+
+    /* Colores */
+    --activetext-colour: rgb(0, 38, 255);
+
+    --primary1-colour: rgb(224, 125, 216);
+    --primary2-colour: rgb(211, 203, 218);
+    --primary3-colour: rgba(197, 105, 185, 0.6);
+    --primary4-colour: rgba(252, 249, 249, 0.4);
+
+    --secondary1-colour: rgba(50, 50, 50, 0.3);
+    --secondary2-colour: rgba(100, 100, 100, 0.5);
+    --secondary3-colour: rgba(0, 0, 0, 0.6);
+    --secondary4-colour: rgba(0, 0, 0, 0.3);
+
+    #app-mount .title_c38106::before {
+        content: "discord.gg/VortexComunity";
+        color: rgb(89, 0, 255);
+        font-weight: 500;
+
+        position: left;
+        margin-right: 10px;
+    }
+    #app-mount .title_c38106 {
+        background-color: var(--secondary3-colour);
+        border-bottom: 3px solid var(--primary3-colour)
+    }
+}
+
+/* Fuente personalizada */
+body,
+button,
+input,
+textarea,
+select {
+
+    .covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
