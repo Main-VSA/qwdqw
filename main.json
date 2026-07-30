@@ -1,0 +1,90 @@
+{
+    "name": "Mi Theme",
+    "description": "Tema personalizado para Vencord con estilo elegante y fuentes personalizadas",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "ZSD"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": ["#f1f1f1"],
+        "HEADER_SECONDARY": ["#c8c8c8"],
+        "TEXT_NORMAL": ["#ffffff"],
+        "TEXT_MUTED": ["#b1b1b1"],
+        "INTERACTIVE_NORMAL": ["#8961ba"],
+        "INTERACTIVE_HOVER": ["#955ac4"],
+        "INTERACTIVE_ACTIVE": ["#ffffff"],
+        "INTERACTIVE_MUTED": ["#a99be3"],
+        "BACKGROUND_PRIMARY": ["rgba(0, 0, 0, 0.6)"],
+        "CARD_PRIMARY_BG": ["rgba(0, 0, 0, 0.6)"],
+        "BG_BASE_PRIMARY": ["rgba(0, 0, 0, 0.6)"],
+        "BACKGROUND_SECONDARY": ["rgba(50, 50, 50, 0.3)"],
+        "CARD_SECONDARY_BG": ["rgba(50, 50, 50, 0.3)"],
+        "BG_BASE_SECONDARY": ["rgba(50, 50, 50, 0.3)"],
+        "BACKGROUND_SECONDARY_ALT": ["rgba(100, 100, 100, 0.5)"],
+        "BACKGROUND_TERTIARY": ["rgba(0, 0, 0, 0.3)"],
+        "BG_BASE_TERTIARY": ["rgba(0, 0, 0, 0.3)"],
+        "BACKGROUND_ACCENT": ["rgba(197, 105, 185, 0.6)"],
+        "BACKGROUND_MOBILE_PRIMARY": ["rgba(0, 0, 0, 0.6)"],
+        "BACKGROUND_MOBILE_SECONDARY": ["rgba(50, 50, 50, 0.3)"],
+        "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.02)"],
+        "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.03)"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255, 255, 255, 0.04)"],
+        "BACKGROUND_MODIFIER_SELECTED": ["rgba(255, 255, 255, 0.05)"],
+        "BACKGROUND_MODIFIER_ACCENT": ["rgba(197, 105, 185, 0.6)"],
+        "BACKGROUND_MENTIONED": ["rgba(210, 97, 216, 0.15)"],
+        "BACKGROUND_MENTIONED_HOVER": ["#955ac4"],
+        "CHANNELTEXTAREA_BACKGROUND": ["rgba(50, 50, 50, 0.3)"],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["rgba(50, 50, 50, 0.3)"],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["rgba(0, 0, 0, 0.3)"],
+        "REDESIGN_CHAT_INPUT_BACKGROUND": ["rgba(50, 50, 50, 0.3)"],
+        "REDESIGN_BUTTON_TERTIARY_BACKGROUND": ["rgba(0, 0, 0, 0.3)"],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": ["rgb(224, 125, 216)"],
+        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#f1f1f1"],
+        "REDESIGN_CHANNEL_NAME_TEXT": ["#ffffff"],
+        "CHANNELS_DEFAULT": ["#c8c8c8"],
+        "CHANNEL_ICON": ["rgb(224, 125, 216)"],
+        "TEXT_PRIMARY": ["#ffffff"],
+        "TEXT_LINK": ["rgb(0, 38, 255)"],
+        "THREAD_CHANNEL_SPINE": ["#955ac4"]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#f1f1f1",
+        "PRIMARY_200": "#c8c8c8",
+        "PRIMARY_300": "#ffffff",
+        "PRIMARY_400": "#b1b1b1",
+        "PRIMARY_500": "rgb(224, 125, 216)",
+        "PRIMARY_600": "rgb(211, 203, 218)",
+        "PRIMARY_700": "rgba(197, 105, 185, 0.6)",
+        "PRIMARY_800": "rgba(252, 249, 249, 0.4)",
+        "SECONDARY_100": "rgba(50, 50, 50, 0.3)",
+        "SECONDARY_200": "rgba(100, 100, 100, 0.5)",
+        "SECONDARY_300": "rgba(0, 0, 0, 0.6)",
+        "SECONDARY_400": "rgba(0, 0, 0, 0.3)",
+        "ACTIVE_COLOR": "rgb(0, 38, 255)",
+        "BRAND_230": "rgb(224, 125, 216)",
+        "BRAND_260": "rgb(211, 203, 218)",
+        "BRAND_360": "#ffffff",
+        "BRAND_500": "rgb(224, 125, 216)",
+        "BRAND_560": "#f1f1f1"
+    },
+    "plus": {
+        "version": "0",
+        "customOverlays": true,
+        "icons": {
+            "StatusMobileOnline": "#e04ae8",
+            "StatusIdle": "#faeb64",
+            "StatusDND": "#e33054",
+            "StatusOffline": "#585666",
+            "StatusOnline": "#e04ae8",
+            "StatusStreaming": "#6e16e0"
+        }
+    },
+    "background": {
+        "blur": 0,
+        "url": "https://i.imgur.com/zjuGBSF.jpeg",
+        "alpha": 0.7
+    },
+    "spec": 2
+}
